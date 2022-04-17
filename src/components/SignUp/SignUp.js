@@ -10,9 +10,8 @@ import { LockFill } from 'react-bootstrap-icons'
 
 export const SignUp = () => {
     return (
-        <>
-
-            <div className='py-5 container-fluid d-flex flex-column align-items-center' style={{ minHeight: '100vh', backgroundColor: '#212C4B' }}>
+        
+            <div id='ctn' className='py-5 container-fluid d-flex flex-column align-items-center' style={{ minHeight: '100vh', backgroundColor: '#212C4B' }}>
 
 
                 <div classname='d-flex row'>
@@ -53,19 +52,19 @@ export const SignUp = () => {
                             </Form.Group>
                             <Form.Group style={{ borderRadius: 5, borderWidth: '1px' }} className="mb-3 ps-2 align-items-center border border-2 d-flex" controlId="formBasicPassword">
                                 <Phone className='me-1' size={20} color={'lightgray'} />
-                                <input className='py-2' type='tel' placeholder='Phone Number' style={{ border: 'none', outline: 'none' }} />
+                                <input className='py-2 w-100' type='tel' placeholder='Phone Number' style={{ border: 'none', outline: 'none' }} />
                             </Form.Group>
                             <Form.Group style={{ borderRadius: 5, borderWidth: '1px' }} className="mb-3 ps-2 align-items-center border border-2 d-flex" controlId="formBasicPassword">
                                 <EnvelopeFill className='me-1' size={20} color={'lightgray'} />
-                                <input type="email" className='py-2' placeholder="Email" style={{ border: 'none', outline: 'none' }} />
+                                <input type="email" className='py-2 w-100' placeholder="Email" style={{ border: 'none', outline: 'none' }} />
                             </Form.Group>
                             <Form.Group style={{ borderRadius: 5, borderWidth: '1px' }} className="mb-3 ps-2 align-items-center border border-2 d-flex" controlId="formBasicPassword">
                                 <LockFill className='me-1' size={20} color={'lightgray'} />
-                                <input className='py-2' type='password' placeholder='Password' style={{ border: 'none', outline: 'none' }} />
+                                <input className='py-2 w-100' type='password' placeholder='Password' style={{ border: 'none', outline: 'none' }} />
                             </Form.Group>
                             <Form.Group style={{ borderRadius: 5, borderWidth: '1px' }} className="mb-3 ps-2 align-items-center border border-2 d-flex" controlId="formBasicPassword">
                                 <LockFill className='me-1' size={20} color={'lightgray'} />
-                                <input className='py-2' type='password' placeholder='Confirm Password' style={{ border: 'none', outline: 'none' }} />
+                                <input className='py-2 w-100' type='password' placeholder='Confirm Password' style={{ border: 'none', outline: 'none' }} />
                             </Form.Group>
                             <Button variant="primary" type="submit" style={{ backgroundColor: '#577FE6' }}>
                                 Create Account
@@ -86,7 +85,7 @@ export const SignUp = () => {
 
                 </div>
         </div>
-        </>
+        
 
     );
 }
