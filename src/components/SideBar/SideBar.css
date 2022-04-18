@@ -6,8 +6,8 @@
     width: 100%;
     font-size: medium;
     font-weight: 600;
-    background-color: lightcoral;
-    border-color: lightcoral;
+    background-color: lightcoral !important;
+    border-color: lightcoral !important;
     }
     
     .Logo{
@@ -29,5 +29,5 @@
         fill:lightcoral;
     }
     .left-navbar{
-        background-color: lightgray;
+        background-color: white;
     }
