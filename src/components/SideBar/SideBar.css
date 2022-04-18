@@ -1,0 +1,33 @@
+.Logout-Button{
+    padding: 8px 6px !important;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    width: 100%;
+    font-size: medium;
+    font-weight: 600;
+    background-color: lightcoral;
+    border-color: lightcoral;
+    }
+    
+    .Logo{
+        color: cornflowerblue;
+        font-weight: bold;
+    }
+    .List{
+        font-weight: bold;
+        cursor: pointer;
+        color: grey;
+    }
+    .admin{
+        fill: rebeccapurple;
+    }
+    .tickets{
+        fill: lightblue;
+    }
+    .dashboardIcon{
+        fill:lightcoral;
+    }
+    .left-navbar{
+        background-color: lightgray;
+    }
